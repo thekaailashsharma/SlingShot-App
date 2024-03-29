@@ -11,6 +11,7 @@
 		4A804CB22BB075EA00D2014B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A804CB12BB075EA00D2014B /* ContentView.swift */; };
 		4A804CB42BB075F000D2014B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A804CB32BB075F000D2014B /* Assets.xcassets */; };
 		4A804CB72BB075F000D2014B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A804CB62BB075F000D2014B /* Preview Assets.xcassets */; };
+		4AA4D50B2BB187EF00D64537 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4D50A2BB187EF00D64537 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4A804CB12BB075EA00D2014B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A804CB32BB075F000D2014B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A804CB62BB075F000D2014B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AA4D50A2BB187EF00D64537 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4A804CAF2BB075EA00D2014B /* SlingShotApp.swift */,
 				4A804CB12BB075EA00D2014B /* ContentView.swift */,
+				4AA4D50A2BB187EF00D64537 /* CameraView.swift */,
 				4A804CB32BB075F000D2014B /* Assets.xcassets */,
 				4A804CB52BB075F000D2014B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA4D50B2BB187EF00D64537 /* CameraView.swift in Sources */,
 				4A804CB22BB075EA00D2014B /* ContentView.swift in Sources */,
 				4A804CB02BB075EA00D2014B /* SlingShotApp.swift in Sources */,
 			);
@@ -275,11 +279,13 @@
 				DEVELOPMENT_TEAM = X9QZ4KQXLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to use camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +310,13 @@
 				DEVELOPMENT_TEAM = X9QZ4KQXLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to use camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
